@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const FooterArea = styled.div`
-height:100px;
+bottom:0px;
+position:absolute;
+width:100%;
+height:75px;
 background-color:#CCC;
 `;

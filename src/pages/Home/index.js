@@ -1,12 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import {HomeArea} from './styled';
+import Navegacao from '../../components/AreaNavegacao';
 const Page = () => {
   return(
-    <div>
-      Página Inicial<br/>
-      <Link to='/about'>Sobre</Link>
-    </div>
+    <HomeArea>
+ <Navegacao></Navegacao>
+      
+    </HomeArea>
   );
 
 }
