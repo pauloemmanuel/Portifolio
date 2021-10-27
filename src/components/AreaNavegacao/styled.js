@@ -4,21 +4,30 @@ export const AreaNavegacao = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
 flex:1;
 margin:auto;
-margin-left:200px;
+margin-left:100px;
 width:300px;
 height:80vh;
-margin-right:120px;
+margin-right:70px;
 background-color:#FFccff;
 border-radius:10px 10px;
 display:flex;
+
+
 flex-direction:column;
 border:2px solid RGBA(255,200,200);
 
+.navegacao{
+  display:flex;
+align-items:center;
+flex-direction:column;
+}
 .img{
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
   border-radius:50%;
   margin:auto;
+  margin-right:30px;
+  margin-left:30px;
   margin-top:40px;
   
   background-image:url('./img/foto.png');
@@ -43,11 +52,12 @@ border:2px solid RGBA(255,200,200);
     justify-content:center;
   }
   li{
-    width:100%;
+    width:100%;               
     border-radius:50px 5px 50px;
     text-align:center;
     line-height:40px;
     border-bottom:2px solid grey;
+    font-size:1.2rem;
    
     
     font-family: 'Open Sans', sans-serif;
