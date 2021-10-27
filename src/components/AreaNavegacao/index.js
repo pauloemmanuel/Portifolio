@@ -13,6 +13,7 @@ const Navegacao = ()=> {
       <li className='selected'>Sobre Mim</li>
       <li >Formação</li>
       <li>Projetos</li>
+      <li>Tecnologias</li>
     </ul>
   </div>
 </AreaNavegacao>
