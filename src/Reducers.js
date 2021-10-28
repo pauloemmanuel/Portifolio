@@ -1,6 +1,6 @@
-import userReducer from './reducers/userReducers';
+import pageReducer from './reducers/pageReducers';
 import { combineReducers } from 'redux';
 
 export default combineReducers({
-  user:userReducer
+  page:pageReducer
 });
