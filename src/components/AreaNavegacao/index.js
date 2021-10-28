@@ -28,7 +28,7 @@ const mudarPagina = (id)=>{
 
   <div className='navegacao'>
     <div className='img'></div>
-    <div className='email'>pauloemmanuelferreria@gmail.com</div>
+    <div className='email'>pauloemmanuelferreira@gmail.com</div>
   </div>
   <div className='nav-bar'>
 
