@@ -77,14 +77,125 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
 }
 {props.page === '/projects' && 
 <div>
-<PageTitle>Sobre mim</PageTitle>
-  projects
+
+  <div className='container'>
+  <PageTitle>Meus Projetos</PageTitle>
+
+    <div className='img-holder'>
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903377693108736050/unknown.png?width=1193&height=676'></img></div>
+        <div className='title'>Projeto Home Pizzaria</div>
+        <div className='description'> Projeto que simula o carrinho de compras de uma pizzaria</div>
+        <div className='description'> <a target='_blank' href='https://pefokun.github.io/Projeto-Venda-De-Pizza/'>Link Para o Projeto</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903383440542556170/unknown.png?width=1284&height=675'></img></div>
+        <div className='title'>Cópia do Google</div>
+        <div className='description'> Foi feito um projeto para se parecer o mais próximo possível  Google</div>
+        <div className='description'> <a target='_blank' href='https://pefokun.github.io/Clone-do-Google/'>Link Para o Projeto</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img src=' https://media.discordapp.net/attachments/584617788329689099/903391836591247390/unknown.png?width=1377&height=676'></img></div>
+        <div className='title'>Projeto Awax</div>
+        <div className='description'> Foi feito um layout baseado em um site da internet</div>
+        <div className='description'> <a target='_blank' href='https://pefokun.github.io/Projeto-Awax/'>Link Para o Projeto</a></div>
+      </div>
+
+     
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903390209297768458/unknown.png?width=1369&height=676'></img></div>
+        <div className='title'>Projeto StarBucks</div>
+        <div className='description'> Foi criado uma single-page inspirado na empresa Star Bucks</div>
+        <div className='description'> <a target='_blank' href='https://pefokun.github.io/Projeto-Star-Bucks/#'>Link Do Projeto</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903391078747603034/unknown.png?width=1383&height=676'></img></div>
+        <div className='title'>Projeto MediCenter</div>
+        <div className='description'> Foi criado uma single-page inspirado em uma empresa de Medicina</div>
+        <div className='description'> <a target='_blank' href='https://pefokun.github.io/MediCenter/'>Link Do Projeto</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903391359048749056/unknown.png?width=1385&height=676'></img></div>
+        <div className='title'>Tributo Yoda</div>
+        <div className='description'> Foi criado um tributo para meu personagem favorito de Star Wars</div>
+        <div className='description'> <a target='_blank' href='https://pefokun.github.io/Tributo-Yoda/'>Link Do Projeto</a></div>
+      </div>
+
+ 
+ 
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903385763390062612/unknown.png?width=1440&height=636'></img></div>
+        <div className='title'>Cadastro de Funcionario</div>
+        <div className='description'> Projeto que cadastra, cria e exclui usuarios</div>
+        <div className='description'> <a target='_blank' href='https://github.com/PefoKun/Cadastro_De_Usuario'>Link Do Git</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903387715494617148/unknown.png?width=1440&height=555'></img></div>
+        <div className='title'>Template para BS4</div>
+        <div className='description'> Template para ser utilizado em páginas web</div>
+        <div className='description'> <a target='_blank' href='https://github.com/PefoKun/Formulario-em-Bs4'>Link Do Git</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903388580720836628/unknown.png?width=908&height=676'></img></div>
+        <div className='title'>Jokenpo!</div>
+        <div className='description'> Jogue Pedra,Papel ou Tesoura contra um site em Js.</div>
+        <div className='description'> <a target='_blank' href='https://github.com/PefoKun/Pedra-Papel-Tesoura'>Link Do Git</a></div>
+      </div>
+   
+    
+
+      
+    
+    </div>
+
+  </div>
 </div>
 }
 {props.page === '/know-how' && 
 <div>
-<PageTitle>Sobre mim</PageTitle>
-  Tecnologias
+<div className='container'>
+<PageTitle>Tecnologias</PageTitle>
+<div className='img-holder'>
+<div className='img-item'>
+        <div className='img'><img  style={{width:300,height:200}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'></img></div>
+        <div className='title'>React</div>
+        <div className='description'> React é uma biblioteca JavaScript front-end gratuita</div>
+        <div className='description'> <a target='_blank' href='https://reactjs.org/'>Pagina Oficial</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src=' https://peritoemphp.com/wp-content/uploads/2019/02/letter_c_PNG22.png'></img></div>
+        <div className='title'>C</div>
+        <div className='description'> C é uma linguagem de programação de computador procedural </div>
+        <div className='description'> <a target='_blank' href='https://docs.microsoft.com/pt-br/cpp/c-language/?view=msvc-160'>Pagina Oficial</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src=' https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png'></img></div>
+        <div className='title'>HTML</div>
+        <div className='description'> É a linguagem de marcação padrão para documentos a serem exibidos em um navegador da web </div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:150,height:180}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png'></img></div>
+        <div className='title'>CSS</div>
+        <div className='description'> É uma linguagem de folha de estilo usada para estilizar em um navegador da web </div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src=' https://digitalents.com.br/wp-content/uploads/2016/03/js-logo.png'></img></div>
+        <div className='title'>Java Script</div>
+        <div className='description'> É uma linguagem de programação que está em conformidade com a especificação ECMAScript.</div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src='https://www.jamesstone.com/wp-content/uploads/2017/11/Boostrap_logo.svg'></img></div>
+        <div className='title'>BootStrap</div>
+        <div className='description'> Bootstrap é um framework CSS para ser utilizado no front-end de aplicações web.</div>
+     
+      </div>
+      
+
+     
+
+     
+</div>
+</div>
 </div>
 }
 
