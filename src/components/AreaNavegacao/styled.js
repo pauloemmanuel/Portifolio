@@ -54,7 +54,7 @@ flex-direction:column;
     list-style:none;
   }
   ul{
-    padding-top:30px;
+   
     padding-left:0px;
     width:100%;
     display:flex;
