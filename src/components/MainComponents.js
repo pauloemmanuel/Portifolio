@@ -11,7 +11,7 @@ margin:auto;
 `;
 
 export const PageTitle = styled.h1`
-font-size:2rem;
+font-size:1.5rem;
 text-align:center;
 color:rgba(250,245,130);
 `;

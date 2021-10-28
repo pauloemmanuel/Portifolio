@@ -9,14 +9,6 @@ height:80vh;
 box-shadow:  0px 0px 10px 2px  rgba(250,245,130);
 border-radius:10px 10px;
 
-
-.conteudo{
-    height:100%;
-    color:rgba(255,255,255,.75);
-    font-weight:regular;
-    font-size:20px;
-    padding-bottom:10px;
-  }
 .container{
   padding-right:60px;
   padding-left:60px;
@@ -49,6 +41,28 @@ border-radius:10px 10px;
 }
 
 }
+
+.conteudo{
+    height:100%;
+    color:rgba(255,255,255,.75);
+    font-weight:regular;
+    font-size:20px;
+    padding-bottom:10px;
+    strong{
+      color:rgba(255,255,255,.85);
+    }
+    .item-formacao{
+      padding-bottom:15px;
+    }
+    .span{
+      font-size:15px;
+      line-height:4px;
+  
+      color:rgba(255,255,255,.5);
+ 
+      
+    }
+  }
 
 .list {
 
