@@ -23,6 +23,10 @@ border:1px solid rgba(255,255,0,0.1);
   display:flex;
 align-items:center;
 flex-direction:column;
+
+.email{
+  margin:20px;
+}
 }
 .img{
   width:150px;
