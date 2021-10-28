@@ -13,7 +13,7 @@ margin:auto;
 export const PageTitle = styled.h1`
 font-size:2rem;
 text-align:center;
-color:#bbb;
+color:rgba(250,245,130);
 `;
 
 export const PageBody = styled.div``;
