@@ -1,5 +1,5 @@
 const initialState =  {
-pagina_exibida:'sobre'
+pagina_exibida:'/sobre'
 };
 
 export default (state = initialState, action)=> {

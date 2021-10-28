@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 
 import {AreaNavegacao} from './styled';
 import {connect} from 'react-redux';
@@ -8,15 +8,19 @@ const Navegacao = (props)=> {
 
 
   function limpar(){
-    document.getElementById('/').className='';
-    document.getElementById('/education').className='';
-    document.getElementById('/projects').className='';
-    document.getElementById('/know-how').className='';
+    document.getElementById('/sobre').className = '';
+    document.getElementById('/education').className = '';
+    document.getElementById('/projects').className = '';
+    document.getElementById('/know-how').className = '';
   }
-  const mudarPagina = useEffect(()=>{
-    limpar();
+const mudarPagina = (id)=>{
+  limpar();
+  document.getElementById(id).className = 'selected';
+  props.changePage(id)
 
-  },[props.page]);
+
+}
+ 
 
   return(
 <AreaNavegacao className='AreaNavegacao'>
@@ -28,10 +32,10 @@ const Navegacao = (props)=> {
   <div className='nav-bar'>
 
     <ul id='menu'>
-      <li id='/'  onClick={(e)=>{props.changePage(e.target.id)}} className='selected'>Sobre Mim </li>
-      <li id='/education' onClick={(e)=>{props.changePage('/education')}}>Formação</li>
-      <li id='/projects'  onClick={(e)=>{props.changePage('/projects')}}>Projetos</li>
-      <li id='/know-how'  onClick={(e)=>{props.changePage('/know-how')}}>Tecnologias</li>
+      <li key='sobre' id='/sobre'  onClick={(e)=>{mudarPagina(e.target.id)}} className='selected'>Sobre Mim </li>
+      <li  key='educacao' id='/education' onClick={(e)=>{mudarPagina(e.target.id)}} className=''>Formação</li>
+      <li  key='projetos' id='/projects'  onClick={(e)=>{mudarPagina(e.target.id)}} className=''>Projetos</li>
+      <li   key='tecnologias' id='/know-how'  onClick={(e)=>{mudarPagina(e.target.id)}} className=''>Tecnologias</li>
     </ul>
   </div>
 </AreaNavegacao>
