@@ -1,6 +1,8 @@
 import React from 'react';
 import {AreaExibicao} from './styled';
+import { PageTitle } from '../MainComponents';
 import { connect } from 'react-redux';
+import Page from '../../pages/Page404';
 
 const Exbicao = (props)=> {
   
@@ -9,21 +11,24 @@ const Exbicao = (props)=> {
 
 {props.page === '/sobre' && 
 <div>
-  sobre
+<PageTitle>Sobre mim</PageTitle>
 </div>
 }
 {props.page === '/education' && 
 <div>
+<PageTitle>Sobre mim</PageTitle>
   education
 </div>
 }
 {props.page === '/projects' && 
 <div>
+<PageTitle>Sobre mim</PageTitle>
   projects
 </div>
 }
 {props.page === '/know-how' && 
 <div>
+<PageTitle>Sobre mim</PageTitle>
   Tecnologias
 </div>
 }

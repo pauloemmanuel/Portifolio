@@ -11,7 +11,10 @@ margin:auto;
 `;
 
 export const PageTitle = styled.h1`
-font-size:27px`;
+font-size:2rem;
+text-align:center;
+color:#bbb;
+`;
 
 export const PageBody = styled.div``;
 
