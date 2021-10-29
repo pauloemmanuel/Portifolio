@@ -33,7 +33,7 @@ const mudarPagina = (id)=>{
   <div className='nav-bar'>
 
     <ul id='menu'>
-      <li key='sobre' id='/sobre'  onClick={(e)=>{mudarPagina(e.target.id)}} className='selected'>Sobre Mim </li>
+      <li key='sobre' id='/sobre'  onClick={(e)=>{mudarPagina(e.target.id)}} className='selected'>Sobre</li>
       <li  key='educacao' id='/education' onClick={(e)=>{mudarPagina(e.target.id)}} className=''>Formação</li>
       <li  key='projetos' id='/projects'  onClick={(e)=>{mudarPagina(e.target.id)}} className=''>Projetos</li>
       <li   key='tecnologias' id='/know-how'  onClick={(e)=>{mudarPagina(e.target.id)}} className=''>Tecnologias</li>

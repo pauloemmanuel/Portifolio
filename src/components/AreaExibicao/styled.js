@@ -6,7 +6,7 @@ margin:auto;
 margin-right:100px;
 background-color:#191b1f;
 height:80vh;
-box-shadow:  0px 0px 10px 2px  rgba(250,245,130);
+box-shadow:    0px 0px 10px -1px  rgba(250,245,130);
 border-radius:10px 10px;
 
 .container{
@@ -25,7 +25,10 @@ overflow:auto;
   
   
   &::-webkit-scrollbar {
-  width:10px;               /* width of the entire scrollbar */
+  width:9px; 
+  height:20px;   
+
+        /* width of the entire scrollbar */
 }
 
 &::-webkit-scrollbar-track {
@@ -33,9 +36,10 @@ overflow:auto;
 }
 
 &::-webkit-scrollbar-thumb {
-  background-color: rgba(250,245,80);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border:4px solid black; /* creates padding around scroll thumb */
+  
+  background-color: rgba(250,245,130);    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border:3px solid black ; /* creates padding around scroll thumb */
 }
 
 .img-holder{
@@ -133,5 +137,85 @@ align-items:center;
     border:0;
     list-style:none;
     padding:5px;}
+}
+
+@media(max-width:770px){
+  
+  box-shadow:  inset 0px 0px 10px -1px  rgba(250,245,130);
+  display:flex;
+ width:100%;
+ margin:20px;
+ margin-right:-60px;
+flex:4;
+margin:auto;
+background-color:#191b1f;
+box-shadow:   inset 0px 0px 10px 0px  rgba(250,245,130);
+border-radius:10px 10px;
+
+ .container{
+  padding-right:30px;
+  padding-left:30px;
+  padding-top:30px;
+overflow:auto;
+  margin:0;
+  line-height:35px;
+  overflow:auto;
+  text-align:justify;
+  display:flex;
+  width:100%;
+  flex-direction:column;
+  height:80vh;
+
+  .img-holder{
+    
+    justify-content:center;
+    align-items:center;
+    .img-item{
+        
+       height:360px;
+       margin-right:20px;
+       margin-bottom:30px;
+      }
+    }
+    .img-perfil{
+   
+      margin:auto;
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  border:2px solid black;
+  
+  box-shadow:    0px 0px 10px 0px  rgba(250,245,130);
+  
+  background-image:url('./img/foto.png');
+  background-position:top;
+  background-size: cover;
+
+}
+
+}
+@media(max-width:320px){
+  .container{
+    .img-holder{
+      .img-item{
+        
+        width:270px
+      }
+   
+    }
+  }
+}
+  @media(max-width:425px){
+  .container{
+    .img-holder{
+      width:100%;
+      .img-item{
+        
+       margin-right:0px;
+       margin-bottom:20px;
+      }
+   
+    }
+  }
 }
 `;

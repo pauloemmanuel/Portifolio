@@ -6,4 +6,13 @@ height:100vh;
 background-color:black;
 display:flex;
 
+@media(max-width:770px){
+  display:flex;
+  flex-direction:column;
+
+
+width:100%;
+overflow:hidden;
+height:100%;
+}
 `;
