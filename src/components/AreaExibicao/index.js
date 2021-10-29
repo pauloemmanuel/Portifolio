@@ -15,7 +15,7 @@ const Exbicao = (props)=> {
 <PageTitle>Sobre mim</PageTitle>
 <div className='conteudo'>
 <div className='img-perfil'></div>
-Olá!<br/> Meu nome é Paulo e eu adoro de codar enquanto escuto uma boa música!<br/>
+Olá!<br/> Meu nome é Paulo e eu adoro codar enquanto escuto uma boa música!<br/>
 Sou um desenvolvedor Web localizado no Brasil em uma pequena cidade do interior de São Paulo.<br/>
 Meu interesse em desenvolvimento começou em 2018, quando tive a idéia 
 de criar um Blog de Musica - E aprendi que não era tão fácil quanto eu pensava.<br/>
