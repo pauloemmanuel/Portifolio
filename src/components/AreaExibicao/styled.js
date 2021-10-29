@@ -207,6 +207,7 @@ overflow:auto;
 }
   @media(max-width:425px){
   .container{
+    height:83vh;
     .img-holder{
       width:100%;
       .img-item{

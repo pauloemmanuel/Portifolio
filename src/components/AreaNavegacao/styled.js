@@ -108,6 +108,7 @@ font-weight:bold;
  margin-left:0px;
  margin-right:0px;
  box-shadow:  none;
+ background-color:black;
  margin-bottom:40px;
  border-radius:0px;;
  margin-bottom:1px;
@@ -122,6 +123,7 @@ font-weight:bold;
   left:20px;
 }
 .navegacao{
+  background-color:#191b1f;
   width:100vw;
   .img{
     display:none;
