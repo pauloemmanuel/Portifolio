@@ -135,7 +135,7 @@ font-weight:bold;
     padding-left:0px;
     width:100%;
     display:flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
   
     justify-content:center;
     align-items:center;
