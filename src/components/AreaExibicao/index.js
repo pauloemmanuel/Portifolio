@@ -17,10 +17,10 @@ const Exbicao = (props)=> {
 <div className='img-perfil'></div>
 Olá!<br/> Meu nome é Paulo e eu adoro codar enquanto escuto uma boa música!<br/>
 Sou um Desenvolvedor Web localizado no Brasil em uma pequena cidade do interior de São Paulo.<br/>
-Meu interesse em desenvolvimento começou em 2018, quando tive a idéia 
+Meu interesse em desenvolvimento começou em 2018, quando tive a ideia 
 de criar um Blog de Musica - E aprendi que não era tão fácil quanto eu pensava.<br/>
 Em minhas experiências técnicas já convivi com uma ampla variedade de tecnologias
-como:<br/> Azure, desenvolvimento Web utilizando Java e Php, React, sites single-page, sites com carrinho e sistema de login, criação e implementação de interfaces.  <br/>
+como:<br/> Azure, desenvolvimento Web utilizando Java e Php, React, sites single-page, sites com carrinho e sistema de login, criação e implementação de interfaces.<br/>
 Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica.<br/>
 
 <div className='list'>
@@ -28,7 +28,7 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
  <ul>
    <li>(Livros) Série de Livros Divergente</li>
    <li>(Livros) Série de Livros Percy Jackson </li>
-   <li>(Livros) Os Heroi do Olimpo</li>
+   <li>(Livros) Os Heróis do Olimpo</li>
    <li>(Livros) Série Warrior Cats</li>
    <li>(Série) Stranger Things </li>
    <li>(Série) World Trigger </li>
@@ -127,7 +127,7 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
  
       <div className='img-item'>
         <div className='img'><img src='https://media.discordapp.net/attachments/584617788329689099/903385763390062612/unknown.png?width=1440&height=636'></img></div>
-        <div className='title'>Cadastro de Funcionario</div>
+        <div className='title'>Cadastro de Funcionários</div>
         <div className='description'> Projeto que cadastra, cria e exclui usuarios</div>
         <div className='description'> <a target='_blank' href='https://github.com/PefoKun/Cadastro_De_Usuario'>Link Do Git</a></div>
       </div>
