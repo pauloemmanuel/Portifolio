@@ -18,9 +18,9 @@ const Exbicao = (props)=> {
 Olá!<br/> Meu nome é Paulo e eu adoro codar enquanto escuto uma boa música!<br/>
 Sou um Desenvolvedor Web localizado no Brasil em uma pequena cidade do interior de São Paulo.<br/>
 Meu interesse em desenvolvimento começou em 2018, quando tive a ideia 
-de criar um Blog de Musica - E aprendi que não era tão fácil quanto eu pensava.<br/>
+de criar um Blog de Música - E aprendi que não era tão fácil quanto eu pensava.<br/>
 Em minhas experiências técnicas já convivi com uma ampla variedade de tecnologias
-como:<br/> Azure, desenvolvimento Web utilizando Java e Php, React, sites single-page, sites com carrinho e sistema de login, criação e implementação de interfaces.<br/>
+como:<br/> Azure, desenvolvimento Web utilizando Java e Php, React, sites single-page, sites com carrinho e sistema de login, criação e implementação de interfaces e não vejo a hora de aplicar oque aprendi!<br/>
 Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica.<br/>
 
 <div className='list'>
