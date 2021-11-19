@@ -45,11 +45,11 @@ function mostrarTecnologias(){
 <div className='conteudo'>
 <div className='img-perfil'></div>
 Olá!<br/> Meu nome é Paulo e eu adoro codar enquanto escuto uma boa música!<br/>
-Sou um Desenvolvedor Web localizado no Brasil em uma pequena cidade do interior de São Paulo.<br/>
+Sou brasileiro, resido em uma pequena cidade do estado de São Paulo e sou Desenvolvedor Web.<br/>
 Meu interesse em desenvolvimento começou em 2018, quando tive a ideia 
 de criar um Blog de Música - E aprendi que não era tão fácil quanto eu pensava.<br/>
 Em minhas experiências técnicas já convivi com uma ampla variedade de tecnologias
-como:<br/> Azure, desenvolvimento Web utilizando Java e Php, React, sites single-page, sites com carrinho e sistema de login, criação e implementação de interfaces e não vejo a hora de aplicar oque aprendi!<br/>
+como: Azure, desenvolvimento Web utilizando Java e Php, React, sites single-page, sites com carrinho e sistema de login, criação e implementação de interfaces.<br/>
 Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica.<br/>
 
 <div className='list'>
@@ -157,13 +157,7 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
         <div className='img'><img style={{width:180,height:180}} src='https://www.jamesstone.com/wp-content/uploads/2017/11/Boostrap_logo.svg'></img></div>
         <div className='title'>BootStrap</div>
         <div className='description'> Bootstrap é um framework CSS para ser utilizado no front-end de aplicações web.</div>
-     
       </div>
-      
-
-     
-
-     
 </div>
 </div>
 </div>
