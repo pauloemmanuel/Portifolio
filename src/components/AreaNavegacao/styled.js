@@ -31,6 +31,12 @@ flex-direction:column;
 .email{
   margin:20px;
 }
+.linkedin{
+  margin:5px;
+  color:rgba(250,245,130);
+ text-decoration:none;
+ 
+}
 }
 .img{
   width:150px;

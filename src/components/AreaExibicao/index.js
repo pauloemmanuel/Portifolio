@@ -16,7 +16,9 @@ const Exbicao = (props)=> {
   {id:7,titulo:'Cadastro de Funcionários',imagem:'https://media.discordapp.net/attachments/584617788329689099/903385763390062612/unknown.png?width=1440&height=636',descricao:'Projeto que cadastra, cria e exclui usuários.',link:'https://github.com/PefoKun/Cadastro_De_Usuario',linkplaceholder:'Link Do GitHub'},
   {id:8,titulo:'Jokenpo!',imagem:'https://media.discordapp.net/attachments/584617788329689099/903388580720836628/unknown.png?width=908&height=676',descricao:'Jogue Pedra,Papel ou Tesoura contra um site em Js.',link:'https://github.com/PefoKun/Pedra-Papel-Tesoura',linkplaceholder:'Link Do GitHub'},
   {id:9,titulo:'Abc Online!',imagem:'https://media.discordapp.net/attachments/584617788329689099/910327781223698452/unknown.png?width=912&height=473',descricao:'Projeto feito para auxiliar crianças a aprender o alfabeto',link:'https://github.com/PefoKun/ABC-ONLINE',linkplaceholder:'Link Do GitHub'},
-  {id:10,titulo:'Template para BS4',imagem:'https://media.discordapp.net/attachments/584617788329689099/903387715494617148/unknown.png?width=1440&height=555',descricao:'Template para ser utilizado em páginas web',link:'https://github.com/PefoKun/Formulario-em-Bs4',linkplaceholder:'Link Do GitHub'}
+  {id:10,titulo:'Template para BS4',imagem:'https://media.discordapp.net/attachments/584617788329689099/903387715494617148/unknown.png?width=1440&height=555',descricao:'Template para ser utilizado em páginas web',link:'https://github.com/PefoKun/Formulario-em-Bs4',linkplaceholder:'Link Do GitHub'},
+  {id:10,titulo:'Site Newsletter',imagem:'https://media.discordapp.net/attachments/584617788329689099/925419034575519794/unknown.png?width=1373&height=676',descricao:'Desafio da RocketSeat usando CSS e HTML5',link:'https://github.com/PefoKun/Desafio-CSS-RocketSeat',linkplaceholder:'Link Do GitHub'},
+
 ];
 
 function mostrarTecnologias(){
@@ -129,7 +131,7 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
 <div className='img-item'>
         <div className='img'><img  style={{width:300,height:200}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'></img></div>
         <div className='title'>React</div>
-        <div className='description'> React é uma biblioteca JavaScript front-end gratuita</div>
+        <div className='description'> React é uma biblioteca JavaScript front-end gratuita.</div>
         <div className='description'> <a target='_blank' href='https://reactjs.org/'>Pagina Oficial</a></div>
 </div>
       <div className='img-item'>
@@ -137,6 +139,24 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
         <div className='title'>C</div>
         <div className='description'> C é uma linguagem de programação de computador procedural </div>
         <div className='description'> <a target='_blank' href='https://docs.microsoft.com/pt-br/cpp/c-language/?view=msvc-160'>Pagina Oficial</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src='https://pics.computerbase.de/1/6/3/2/6/logo-256.png'></img></div>
+        <div className='title'>PHP</div>
+        <div className='description'> PHP é uma linguagem de script voltada para o desenvolvimento web.</div>
+        <div className='description'> <a target='_blank' href='https://www.php.net/'>Pagina Oficial</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src='https://digitalents.com.br/wp-content/uploads/2016/03/js-logo.png'></img></div>
+        <div className='title'>Java Script</div>
+        <div className='description'> É uma linguagem de programação em conformidade com o ECMAScript.</div>
+        <div className='description'> <a target='_blank' href='https://js.org/'>Pagina Oficial</a></div>
+      </div>
+      <div className='img-item'>
+        <div className='img'><img style={{width:180,height:180}} src='https://www.jamesstone.com/wp-content/uploads/2017/11/Boostrap_logo.svg'></img></div>
+        <div className='title'>BootStrap</div>
+        <div className='description'> Bootstrap é um framework CSS utilizado no front-end.</div>
+        <div className='description'> <a target='_blank' href='https://getbootstrap.com/'>Pagina Oficial</a></div>
       </div>
       <div className='img-item'>
         <div className='img'><img style={{width:180,height:180}} src=' https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png'></img></div>
@@ -148,16 +168,12 @@ Meus Hobbies são Jogos, Literatura de Romance, Seriados de Ficção Científica
         <div className='title'>CSS</div>
         <div className='description'> É uma linguagem de folha de estilo usada para estilizar em um navegador da web </div>
       </div>
-      <div className='img-item'>
-        <div className='img'><img style={{width:180,height:180}} src=' https://digitalents.com.br/wp-content/uploads/2016/03/js-logo.png'></img></div>
-        <div className='title'>Java Script</div>
-        <div className='description'> É uma linguagem de programação que está em conformidade com a especificação ECMAScript.</div>
-      </div>
-      <div className='img-item'>
-        <div className='img'><img style={{width:180,height:180}} src='https://www.jamesstone.com/wp-content/uploads/2017/11/Boostrap_logo.svg'></img></div>
-        <div className='title'>BootStrap</div>
-        <div className='description'> Bootstrap é um framework CSS para ser utilizado no front-end de aplicações web.</div>
-      </div>
+      
+     
+     
+     
+     
+      
 </div>
 </div>
 </div>
